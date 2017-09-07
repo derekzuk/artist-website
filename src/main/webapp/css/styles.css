@@ -1,0 +1,79 @@
+html {
+	overflow-y: scroll;
+}
+body { 
+  background: url(../images/grid.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+a:hover { color: red }
+.gohomesad_image_container {
+	height:1080px;
+}
+.gohomesad_image {
+    position:absolute;
+    width:945px; /*image width */
+    height:945px; /*image height */
+    padding-top: 100px;
+    left:50%; 
+    margin-left:-472px; /*image width/2 */
+    margin-right:-472px; /*image height/2 */
+}
+.page-header {
+
+  font-size: 28px;
+  font-family: "Courier New", Courier New; 
+  -webkit-text-stroke: 1px black;
+  color: white;
+  text-shadow:
+      2px 2px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+     -1px 1px 0 #000,
+      1px 1px 0 #000;
+}
+.title { 
+  margin-left: auto; 
+  margin-right: auto; 
+  border-width: 5px;
+  border-spacing: 2px;
+  border-style: outset;
+}
+.title th { 
+  background-color: #ffffff;
+  font-size: 28px;
+  font-family: Arial, Courier, sans-serif;
+}
+th { background-color: #ffffff;
+     font-size: 18px;
+     font-family: Arial, Courier, sans-serif;
+}
+td { font-size: 18px;
+     font-family: Arial, Courier, sans-serif;
+}
+legend {
+  font-weight: bold;
+  color: black;
+  background-color: #eeeeee;
+  border: 1px solid #999999;
+  padding: 3px 2px;
+}
+.ajaxResult { color: #440000;
+              font-weight: bold;
+              font-size: 18px;
+              font-family: Arial, Courier, sans-serif;
+}
+h2 { color: #440000;
+	  font-weight: bold;
+	  font-size: 18px;
+	  font-family: Arial, Courier, sans-serif;
+}
+.error { background-color: yellow;
+	      color: red;
+	      font-weight: bold;
+	      font-size: 20px;
+	      font-family: Arial, Courier, sans-serif;
+	      border-style: inset;
+}

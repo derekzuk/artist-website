@@ -1,0 +1,43 @@
+.modal-backdrop.in {
+    background-color: #333333;
+    opacity: 0.95;
+}
+.ekko-lightbox .modal-content {
+    background-color: transparent;
+    border: medium none;
+    border-radius: 0;
+    box-shadow: none;
+}
+.ekko-lightbox .modal-header {
+    border: 0 none;
+    padding-left: 0;
+    padding-right: 0;
+}
+.ekko-lightbox .modal-header .close {
+    color: #fff;
+    font-weight: 100;
+    margin-top: 5px;
+    opacity: 0.5;
+}
+.ekko-lightbox .modal-header .close:hover {
+    opacity: 1;
+}
+.ekko-lightbox .modal-header h4.modal-title {
+    color: #fff;
+    font-weight: 100;
+    padding: 0;
+}
+.ekko-lightbox .modal-body {
+    padding: 0;
+}
+.ekko-lightbox .modal-footer {
+    border: 0 none;
+    color: #fff;
+    font-weight: 100;
+    opacity: 0.9;
+    padding: 0;
+}
+.ekko-lightbox-nav-overlay a {
+    opacity: 0.9;
+    text-shadow: none;
+}
